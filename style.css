@@ -1,0 +1,49 @@
+html {
+    font-family: Product Sans, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+  color: black;
+  font-size: 13px;
+ }
+
+ a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+#google-logo {
+  position: relative;
+  text-align: center;
+  transform:translate(0px,200px);
+  transform:scale(50%)
+  font-size: 8rem;
+  font-weight: bold;
+  letter-spacing: -16px;
+  line-height: 0%;
+}
+
+div {
+  text-align: center;
+}
+
+input{
+    padding-left: 150px;
+    padding-right: 150px;
+    transform: translate(0px,200px);
+    color: black;
+    margin: auto;
+    text-align: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(236, 236, 236);
+  color: #232323;
+}
