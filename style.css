@@ -38,10 +38,6 @@ input {
   background-size: 1.5rem;
 }
 
-input img{
-  background-color:gray;
-}
-
 input:focus { 
   outline: none !important;
   border-color: rgb(207, 207, 207));
