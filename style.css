@@ -68,7 +68,7 @@ input:focus {
 }
 
 #mic {
-  transform: translate(-180%,30%);
+  transform: translate(-40px,9px);
 }
 
 button {
