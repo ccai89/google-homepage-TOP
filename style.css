@@ -1,6 +1,6 @@
 html {
   font-family: Product Sans, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1rem;
+  font-size: 15px;
 }
 
 ul {
@@ -13,7 +13,6 @@ ul {
 
 li {
   display: inline;
-  float: left;
 }
 
 li a {
@@ -29,13 +28,21 @@ a {
   text-decoration: none;
  }
 
-#apps{
-  float: right;
+a:hover {
+  text-decoration: underline;
+}
+
+#face {
+  width: 18px;
+  height: 18px;
+  background-color: purple;
+  border-radius: 50%;
+  margin-left: 5px;
 }
 
 #logo {
-  padding-top: 8rem;
-  padding-bottom: 2rem;
+  padding-top: 15rem;
+  padding-bottom: 1rem;
   float: center;
 }
 
@@ -45,26 +52,30 @@ div {
 
 input {
   padding: 10px 10px 10px 3rem;
-  width: 38rem;
+  width: 35rem;
   text-indent: .25rem;
   border-radius: 1rem;
   border: 1px solid rgb(207, 207, 207);
-  background-image: url("search.png");
+  background-image: url("images/search.png");
   background-position: 10px;
   background-repeat: no-repeat;
   background-size: 1.5rem;
 }
 
-
 input:focus { 
   outline: none !important;
-  border-color: rgb(207, 207, 207));
+  border-color: rgb(207, 207, 207);
+}
+
+#mic {
+  transform: translate(-180%,30%);
 }
 
 button {
   margin-top: 30px;
   margin-left: 5px;
   margin-right: 5px;
+  font-size: 15px;
   border-color: transparent;
   white-space: nowrap;
   border-radius: 6px;
