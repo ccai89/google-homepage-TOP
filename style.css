@@ -3,19 +3,31 @@ html {
   font-size: 1rem;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-right: 25px;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
 a {
   color: rgb(105, 105, 105);
-  
-  margin-inline-end: 1.5rem;
+  padding: 8px;
+  text-decoration: none;
  }
-
- a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
 
 img {
   padding-top: 8rem;
@@ -28,15 +40,17 @@ div {
 }
 
 input {
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 3rem;
   width: 38rem;
-  border-radius: 20px;
+  text-indent: .25rem;
+  border-radius: 1rem;
   border: 1px solid rgb(207, 207, 207);
   background-image: url("search.png");
   background-position: 10px;
   background-repeat: no-repeat;
   background-size: 1.5rem;
 }
+
 
 input:focus { 
   outline: none !important;
@@ -64,7 +78,7 @@ button:hover {
 }
 
 .footer {
-  flex-wrap: flex;
+  float: inline;
   position: fixed;
   bottom: 0;
   width: 100%;
